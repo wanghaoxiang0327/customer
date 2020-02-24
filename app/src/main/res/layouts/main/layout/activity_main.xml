@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fefefe"
+    android:orientation="vertical">
+
+    <com.pomelo.searchcustomer.weight.CustomViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_bottom_navigation_view"
+        app:itemIconSize="@dimen/dp_20"
+        app:itemIconTint="@drawable/selector_tab_color"
+        app:itemTextColor="@drawable/selector_tab_color"
+        app:menu="@menu/bottom_menu" />
+</LinearLayout>

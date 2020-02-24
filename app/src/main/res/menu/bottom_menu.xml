@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_tab1"
+        android:icon="@mipmap/icon_home_search"
+        android:title="搜索客户" />
+    <item
+        android:id="@+id/item_tab2"
+        android:icon="@mipmap/icon_card"
+        android:title="名片" />
+    <item
+        android:id="@+id/item_tab3"
+        android:icon="@mipmap/icon_supply_lib"
+        android:title="供需库" />
+
+    <item
+        android:id="@+id/item_tab4"
+        android:icon="@mipmap/icon_mine"
+        android:title="我的" />
+
+
+</menu>
